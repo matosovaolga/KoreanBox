@@ -1,0 +1,13 @@
+.sm {
+	color: var(--light-text);
+
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.m {
+	color: var(--text);
+
+	font-size: 15px;
+	line-height: 26px;
+}

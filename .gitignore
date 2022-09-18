@@ -3,6 +3,8 @@
 # dependencies
 /node_modules
 /.pnp
+
+/.vscode
 .pnp.js
 
 # testing
@@ -10,6 +12,9 @@
 
 # production
 /build
+/.next/
+/next
+.next/
 
 # misc
 .DS_Store
