@@ -8,6 +8,7 @@
 
 module.exports = {
 	webpack(config, options) {
+
 		config.module.rules.push({
 			loader: '@svgr/webpack',
 			issuer: /\.[jt]sx?$/,
@@ -18,18 +19,17 @@ module.exports = {
 					plugins: [{
 						name: 'preset-default',
 						params: {
-							override: {
+							ovrride: {
 								removeViewBox: false
 							}
 						}
-
 					}],
 				},
 				titleProp: true,
 			},
 			test: /\.svg$/,
-
 		});
+
 
 		return config;
 	},

@@ -47,6 +47,12 @@ p {
 		serif;
 }
 
+.grid_container {
+	display: grid;
+	grid-template-columns: auto minmax(320px, 1500px) auto;
+
+}
+
 @media (prefers-color-scheme: dark) {
 	html {
 		color-scheme: dark;
